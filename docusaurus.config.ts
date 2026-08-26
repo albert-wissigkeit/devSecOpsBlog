@@ -9,8 +9,8 @@ dotenvconfig();
 const blogEnabled = Boolean(process.env.BLOG_ENABLED === 'true')
 
 const config: Config = {
-  title: 'DSO Live Demo Docs',
-  tagline: 'Dinosaurs are cool',
+  title: 'Albert´s DevSecOps Blog',
+  tagline: 'Learning DevSecOps, Step by Step! Hands-on: From Fundamentals to Practice.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -89,7 +89,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/spmse/dev-blog-template',
+          href: 'https://github.com/albert-wissigkeit/devSecOpsBlog',
           label: 'Github',
           position: 'right',
         },
@@ -129,12 +129,16 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/albert-wissigkeit/devSecOpsBlog',
+            },
+            {
+              label: 'Template',
+              href: 'https://github.com/Developer-Akademie-DevSecOpsKurs/dev-blog-template',
             }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Sven Patrick Meier (spmse). Built with Docusaurus and 💚.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Albert Wissigkeit extended from the developer-akademie-starter. Built with Docusaurus and 💚.`,
     },
     prism: {
       theme: prismThemes.github,
