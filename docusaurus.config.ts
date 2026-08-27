@@ -7,15 +7,14 @@ dotenvconfig();
 
 /* TODO: change to read configuration from environment */
 const blogEnabled = Boolean(process.env.BLOG_ENABLED === 'true')
-const gitRepositoryUrl = process.env.GIT_REPOSITORY_URL
 
 const config: Config = {
-  title: 'Albert´s DevSecOps Blog',
-  tagline: 'Learning DevSecOps, Step by Step! Hands-on: From Fundamentals to Practice.',
+  title: 'DSO Live Demo Docs',
+  tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: process.env.DEPLOYMENT_URL ?? "https://albert-wissigkeit.github.io/",
+  url: process.env.DEPLOYMENT_URL ?? "https://spmse.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: process.env.BASE_URL ?? "/devSecOpsBlog/",
@@ -46,7 +45,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: gitRepositoryUrl,
+          editUrl:
+            'https://github.com/spmse/dev-blog-template',
         },
         blog: blogEnabled ? 
           {
@@ -57,7 +57,8 @@ const config: Config = {
             },
             // Please change this to your repo.
             // Remove this to remove the "edit this page" links.
-            editUrl: gitRepositoryUrl,
+            editUrl:
+              'https://github.com/spmse/dev-blog-template',
             // Useful options to enforce blogging best practices
             onInlineTags: 'warn',
             onInlineAuthors: 'warn',
@@ -88,7 +89,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/albert-wissigkeit/devSecOpsBlog',
+          href: 'https://github.com/spmse/dev-blog-template',
           label: 'Github',
           position: 'right',
         },
@@ -104,9 +105,22 @@ const config: Config = {
               label: 'Tutorial',
               to: '/docs/guides/intro',
             },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
             {
-              label: 'Projects',
-              to: '/docs/projects/example-project',
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/docusaurus',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/docusaurus',
             },
           ],
         },
@@ -115,16 +129,12 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/albert-wissigkeit/devSecOpsBlog',
-            },
-            {
-              label: 'Template',
-              href: 'https://github.com/Developer-Akademie-DevSecOpsKurs/dev-blog-template',
+              href: 'https://github.com/facebook/docusaurus',
             }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Albert Wissigkeit extended from the developer-akademie-starter. Built with Docusaurus and 💚.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sven Patrick Meier (spmse). Built with Docusaurus and 💚.`,
     },
     prism: {
       theme: prismThemes.github,
