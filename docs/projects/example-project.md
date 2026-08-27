@@ -1,4 +1,4 @@
-# Example Project-Title
+# Project-Title
 
 <!--INSERT YOUR BRIEF DESCRIPTION HERE -->
 A simple and brief description and intro to the project.
