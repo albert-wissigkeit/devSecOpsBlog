@@ -43,7 +43,7 @@ Ensure you have the following installed:
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/albert-wissigkeit/devSecOpsBlog .
+git clone git@github.com:albert-wissigkeit/devSecOpsBlog.git .
 ```
 
 2. **Install Dependencies**
@@ -58,7 +58,9 @@ pnpm install
 pnpm start
 ```
 
-> **Note:** The site opens usually automatically at `http://localhost:3000`.
+:::note 
+**Note:** The site opens usually automatically at `http://<your_ip>:3000`.
+:::
 
 ## Description
 
