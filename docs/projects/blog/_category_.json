@@ -1,0 +1,8 @@
+{
+  "label": "Docusaurus Blog",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "A customized Docusaurus blog portfolio set up as part of the Developer Akademie training program."
+  }
+}
