@@ -6,6 +6,8 @@ import TOCInline from '@theme/TOCInline';
 
 # Setting Up SSH Authentication
 
+Setting Up Passwordless SSH Login for VPS
+
 ## TOC
 
 <TOCInline toc={toc} />
@@ -77,6 +79,8 @@ ssh -o PubkeyAuthentication=no <username>@<your_ip>
 ```
 
 - If the server responds with `Permission denied (publickey)`, password authentication is successfully disabled.
+
+8. Next Step: [Nginx Basic Setup](nginx_basics.md) to host your own HTML page.
 
 ---
 

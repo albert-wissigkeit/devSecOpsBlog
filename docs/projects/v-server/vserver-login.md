@@ -2,9 +2,15 @@
 sidebar_position: 2
 ---
 
+import TOCInline from '@theme/TOCInline';
+
 # vServer Login
 
 This page explains how to log in to a vServer.
+
+## TOC
+
+<TOCInline toc={toc} />
 
 ## Description
 
@@ -32,6 +38,8 @@ A **host fingerprint** is a unique cryptographic hash of a server's public key u
 - **Identity Verification:** Ensures you are connecting to the correct server on your first login.
 - **Security:** Protects against Man-in-the-Middle attacks. Your system saves the fingerprint in `known_hosts` and alerts you if it changes unexpectedly in the future.
 :::
+
+4. Next Step: [Set up SSH authentication on your vServer](sshkey.md) for better security.
 
 ## Further References
 
