@@ -116,6 +116,8 @@ sudo systemctl reload nginx
 systemctl status nginx
 ```
 
+8. Next Step: [Git & GitHub Configuration on VPS](git_github.md) for GitHub Access.
+
 ---
 
 ## Description
