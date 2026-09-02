@@ -8,14 +8,12 @@ This page explains how to log in to a vServer.
 
 ## Description
 
-### First Log in to the provided VPS from Developer Akademie using username and password:
+### First login to the provided VPS from Developer Akademie using username and password:
 
 1. **Open local console and run the SSH command:**
 
 ```bash
-   ssh <username>@<ip-or-domain>
-   # Or with a custom port:
-   ssh -p <port> <username>@<ip-or-domain>
+ssh <username>@<your_ip>
 ```
 
 2. **Accept the host fingerprint:**

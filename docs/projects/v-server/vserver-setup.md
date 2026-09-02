@@ -12,6 +12,7 @@ This page documents how I configured my very first cloud server instance in the 
 
 To keep things clear, each step is split into its own page:
 1. [vServer login](vserver-login.md): Explanation of how to log in to the vServer.
+1. [Setting Up SSH Authentication](sshkey.md): Explanation of how to set up the vServer only with SSH Login.
 
 <GithubLinkAdmonition
     link="https://github.com/albert-wissigkeit/devSecOpsBlog"
