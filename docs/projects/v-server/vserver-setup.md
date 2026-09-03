@@ -15,6 +15,7 @@ To keep things clear, each step is split into its own page:
 2. [Setting Up SSH Authentication](sshkey.md): Explanation of how to set up the vServer only with SSH Login.
 3. [Nginx Basic Setup](nginx_basics.md) to host your own HTML page.
 4. [Git & GitHub Configuration on VPS](git_github.md) for GitHub Access.
+5. [Extended SSH Knowledge](ssh_extended.md) for Managing Commands and SSH Connections with Short Aliases.
 
 <GithubLinkAdmonition
     link="https://github.com/albert-wissigkeit/devSecOpsBlog"

@@ -79,6 +79,8 @@ ssh -T git@github.com
 
 If successful, you will see a message: _Hi ! You've successfully authenticated..._
 
+6. Next Step: [Extended SSH Knowledge](ssh_extended.md) for Managing Commands and SSH Connections with Short Aliases.
+
 ---
 
 ## Description
