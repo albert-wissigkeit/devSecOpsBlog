@@ -12,9 +12,7 @@ This page explains how to log in to a vServer.
 
 <TOCInline toc={toc} />
 
-## Description
-
-### First login to the provided VPS from Developer Akademie using username and password:
+### First login to the VPS using username and password:
 
 1. **Open local console and run the SSH command:**
 

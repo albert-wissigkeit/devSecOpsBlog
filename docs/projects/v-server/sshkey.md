@@ -84,8 +84,6 @@ ssh -o PubkeyAuthentication=no <username>@<your_ip>
 
 ---
 
-## Description
-
 ### Why Use SSH Keys Instead of Passwords?
 
 - **Brute-Force Protection:** Passwords can be targeted by automated dictionary attacks. Ed25519 SSH keys provide 256-bit cryptographic security, making brute-force cracking virtually impossible.

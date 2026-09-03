@@ -120,8 +120,6 @@ systemctl status nginx
 
 ---
 
-## Description
-
 ### Why Use Nginx as a Web Server?
 
 - **High Performance & Concurrency:** Nginx uses an asynchronous, event-driven architecture, allowing it to handle thousands of simultaneous connections with minimal memory overhead.

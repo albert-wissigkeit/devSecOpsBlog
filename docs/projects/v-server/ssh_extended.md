@@ -311,8 +311,6 @@ Shell aliases are still useful for shortening other long commands, but for SSH s
 
 ---
 
-## Description
-
 ### Why Use SSH Aliases?
 
 SSH aliases are useful when:

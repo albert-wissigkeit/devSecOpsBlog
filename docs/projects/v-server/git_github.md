@@ -83,8 +83,6 @@ If successful, you will see a message: _Hi ! You've successfully authenticated..
 
 ---
 
-## Description
-
 ### What You Can Do with GitHub Access
 
 - **Clone Private Repositories:** Pull code securely from your private repositories to your VPS via SSH (`git clone git@github.com:username/repo.git`).
