@@ -1,27 +1,26 @@
+---
+sidebar_position: 1
+---
+
+import GithubLinkAdmonition from '@site/src/components/GithubLinkAdmonition';
+
 # V-Server Setup
 
-<!--INSERT YOUR BRIEF DESCRIPTION HERE -->
 This page documents how I configured my very first cloud server instance in the Developer Akademie DevSecOps Course.
 
 ## TOC
 
-<!--INSERT YOUR TABLE OF CONTENTS HERE -->
+To keep things clear, each step is split into its own page:
+1. [vServer login](vserver-login.md): Explanation of how to log in to the vServer.
+2. [Setting Up SSH Authentication](sshkey.md): Explanation of how to set up the vServer only with SSH Login.
+3. [Nginx Basic Setup](nginx_basics.md) to host your own HTML page.
+4. [Git & GitHub Configuration on VPS](git_github.md) for GitHub Access.
+5. [Extended SSH Knowledge](ssh_extended.md) for Managing Commands and SSH Connections with Short Aliases.
 
-import GithubLinkAdmonition from '@site/src/components/GithubLinkAdmonition';
-
-<GithubLinkAdmonition 
-    link="https://github.com/spmse/dev-blog-template"
-    title="Github Tip" 
+<GithubLinkAdmonition
+    link="https://github.com/albert-wissigkeit/devSecOpsBlog"
+    title="Github Repo"
     type="tip"
-/>
-
-## Quickstart
-
-1. do X
-2. do Y
-
-## Description
-
-this is an *example* of a **description**.
-
-## Further References
+>
+Checkout this repository to see the code and implementation details.
+</GithubLinkAdmonition>
